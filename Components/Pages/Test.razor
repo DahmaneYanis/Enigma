@@ -1,0 +1,59 @@
+﻿@page "/test";
+@inject HttpClient Http
+@using Model;
+
+@if (superhero != null)
+{
+    @foreach(SuperHero hero in superhero){
+        <p>Nom du super-héros : @hero.name</p>
+    }
+}
+else
+{
+    <p>Erreur lors de la récupération des données du super-héros.</p>
+}
+
+@code {
+    string baseUri = "https://superheroapi.com/api/358984949949157";
+    
+    private List<SuperHero>? superhero;
+    string apiEndpoint = "https://superheroapi.com/api/358984949949157";
+
+
+    @* private async Task getNextSuperHeros() {
+ 
+        try
+        {
+            // Effectue la requête GET à l'API
+            superhero = await Http.GetFromJsonAsync<SuperHero>(apiEndpoint);
+        }
+        catch (Exception ex)
+        {
+            // Gère les erreurs ici, par exemple, en affichant un message d'erreur à l'utilisateur
+            Console.WriteLine($"Erreur lors de la récupération des tâches : {ex.Message}");
+        }
+
+        if (superhero == null) {
+            superhero = new SuperHero("erreur");
+        }
+    } *@
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Remplace l'URL par l'adresse de ton API
+        string apiEndpoint = "https://superheroapi.com/api/358984949949157/3";
+
+        try
+        {
+            // Effectue la requête GET à l'API
+            superhero = await Http.GetFromJsonAsync<List<SuperHero>>(apiEndpoint);
+        }
+        catch (Exception ex)
+        {
+            // Gère les erreurs ici, par exemple, en affichant un message d'erreur à l'utilisateur
+            Console.WriteLine($"Erreur lors de la récupération des tâches : {ex.Message}");
+        }
+
+    }
+
+}
