@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ze6REux75KMqZSQAlTwEf4oEpT5lQ8z7amowOs+JMQM=",
+  "Hash": "YnQ1/ud5mDA6/RuRZq8hDlwTlbuE86ZkDdtDz+S8Hoo=",
   "Source": "Enigma",
   "BasePath": "_content/Enigma",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Enigma\\wwwroot",
       "Source": "Enigma",
-      "ContentRoot": "C:\\Users\\dahma\\OneDrive\\Bureau\\Enigma\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lilou\\Desktop\\Enigma\\wwwroot\\",
       "BasePath": "_content/Enigma",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\dahma\\OneDrive\\Bureau\\Enigma\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Enigma.styles.css",
+      "Identity": "C:\\Users\\lilou\\Desktop\\Enigma\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Enigma.styles.css",
       "SourceId": "Enigma",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\dahma\\OneDrive\\Bureau\\Enigma\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\lilou\\Desktop\\Enigma\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Enigma",
       "RelativePath": "Enigma.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\dahma\\OneDrive\\Bureau\\Enigma\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Enigma.styles.css"
+      "OriginalItemSpec": "C:\\Users\\lilou\\Desktop\\Enigma\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Enigma.styles.css"
     },
     {
-      "Identity": "C:\\Users\\dahma\\OneDrive\\Bureau\\Enigma\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Enigma.bundle.scp.css",
+      "Identity": "C:\\Users\\lilou\\Desktop\\Enigma\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Enigma.bundle.scp.css",
       "SourceId": "Enigma",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\dahma\\OneDrive\\Bureau\\Enigma\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\lilou\\Desktop\\Enigma\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Enigma",
       "RelativePath": "Enigma.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\dahma\\OneDrive\\Bureau\\Enigma\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Enigma.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\lilou\\Desktop\\Enigma\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Enigma.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\dahma\\OneDrive\\Bureau\\Enigma\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\lilou\\Desktop\\Enigma\\wwwroot\\app.css",
       "SourceId": "Enigma",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dahma\\OneDrive\\Bureau\\Enigma\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lilou\\Desktop\\Enigma\\wwwroot\\",
       "BasePath": "_content/Enigma",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\dahma\\OneDrive\\Bureau\\Enigma\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\lilou\\Desktop\\Enigma\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "Enigma",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dahma\\OneDrive\\Bureau\\Enigma\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lilou\\Desktop\\Enigma\\wwwroot\\",
       "BasePath": "_content/Enigma",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\dahma\\OneDrive\\Bureau\\Enigma\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\lilou\\Desktop\\Enigma\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Enigma",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dahma\\OneDrive\\Bureau\\Enigma\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lilou\\Desktop\\Enigma\\wwwroot\\",
       "BasePath": "_content/Enigma",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\dahma\\OneDrive\\Bureau\\Enigma\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\lilou\\Desktop\\Enigma\\wwwroot\\favicon.png",
       "SourceId": "Enigma",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dahma\\OneDrive\\Bureau\\Enigma\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lilou\\Desktop\\Enigma\\wwwroot\\",
       "BasePath": "_content/Enigma",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
