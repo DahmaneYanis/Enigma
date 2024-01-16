@@ -7,8 +7,16 @@ builder.Services.AddHttpClient();
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-var app = builder.Build();
+var builder = WebAssemblyHostBuilder.CreateDefault(args);
+builder.RootComponents.Add<App>("app");
 
+builder.Services.AddBlazoredSessionStorage();
+
+await builder.Build().RunAsync();
+
+
+var app = builder.Build();
+builder.Services.AddBlazoredSessionStorageAsSingleton();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

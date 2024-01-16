@@ -1,0 +1,38 @@
+﻿@page "/listCarte/{Mode?}";
+@using Model;
+@using Controllers;
+@inherits ListCarteController;
+@using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
+@inject ProtectedSessionStorage ProtectedSessionStorage;
+
+@if (@Superheros != (new List<SuperHero>()))
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (SuperHero superhero in @Superheros)
+            {
+                <tr>
+                    <td>@superhero.id</td>
+                    <td>@superhero.name</td>
+                    @if (@mode == "add") {
+                        <td><RadzenButton Text="Add" ButtonStyle="ButtonStyle.Primary"></RadzenButton></td>
+                    } 
+                    else {
+                        <td><RadzenButton Text="Open" ButtonStyle="ButtonStyle.Primary"/></td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Erreur lors de la récupération des données du super-héros.</p>
+}

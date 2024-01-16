@@ -58,3 +58,7 @@ C:\Users\lilou\Desktop\Enigma\obj\Debug\net8.0\refint\Enigma.dll
 C:\Users\lilou\Desktop\Enigma\obj\Debug\net8.0\Enigma.pdb
 C:\Users\lilou\Desktop\Enigma\obj\Debug\net8.0\Enigma.genruntimeconfig.cache
 C:\Users\lilou\Desktop\Enigma\obj\Debug\net8.0\ref\Enigma.dll
+C:\Users\lilou\Desktop\Enigma\bin\Debug\net8.0\Radzen.Blazor.dll
+C:\Users\lilou\Desktop\Enigma\bin\Debug\net8.0\System.Linq.Dynamic.Core.dll
+C:\Users\lilou\Desktop\Enigma\obj\Debug\net8.0\Enigma.csproj.AssemblyReference.cache
+C:\Users\lilou\Desktop\Enigma\obj\Debug\net8.0\Enigma.csproj.CopyComplete
