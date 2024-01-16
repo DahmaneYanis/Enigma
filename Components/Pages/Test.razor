@@ -1,11 +1,12 @@
 ﻿@page "/test";
 @using Model;
+@using DTO;
 @inject HttpClient Http;
 
-@if (superheros != (new List<SuperHero>()))
+@if (superheros != (new List<DTO.SuperHero>()))
 {
-    @foreach(SuperHero hero in superheros){
-        <p>Nom du super-héros : @hero.name</p>
+    @foreach(DTO.SuperHero hero in superheros){
+        <p>Nom du super-héros : @hero.id @hero.name "@hero.powerstats.intelligence"</p>
     }
 }
 else
@@ -14,7 +15,7 @@ else
 }
 
 @code {
-    private List<SuperHero> superheros = new List<SuperHero>();
+    private List<DTO.SuperHero> superheros = new List<DTO.SuperHero>();
     protected override async Task OnInitializedAsync()
     {
         RequestSuperheroAPI superheroAPI = new RequestSuperheroAPI(Http);
@@ -26,7 +27,7 @@ else
                     break;
                 }
                 // Effectue la requête GET à l'API
-                SuperHero? superhero = await superheroAPI.GetSuperheroById(id);
+                DTO.SuperHero? superhero = await superheroAPI.GetSuperheroById(id);
                 if (superhero == null) {
                     break;
                 } else {

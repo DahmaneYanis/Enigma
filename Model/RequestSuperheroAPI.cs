@@ -7,8 +7,8 @@ class RequestSuperheroAPI {
         Http = http;
     }
 
-    public async Task<SuperHero?> GetSuperheroById(int id) {
-        SuperHero? superHero = await Http.GetFromJsonAsync<SuperHero>(BaseApi + id);
+    public async Task<DTO.SuperHero?> GetSuperheroById(int id) {
+        DTO.SuperHero? superHero = await Http.GetFromJsonAsync<DTO.SuperHero>(BaseApi + id);
         return superHero;
     }
 }
